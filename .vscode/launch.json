@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Monte Carlo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/monte_carlo",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "C/C++: Build Monte Carlo (-O3)"
+        }
+    ]
+}

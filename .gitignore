@@ -1,0 +1,14 @@
+# Ignore build artifacts and binaries
+build/
+*.o
+*.out
+*.exe
+app
+
+# Ignore generated simulation output data
+*.csv
+*.png
+
+# Ignore OS metadata
+.DS_Store
+Thumbs.db
