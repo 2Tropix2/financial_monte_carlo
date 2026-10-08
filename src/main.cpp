@@ -38,5 +38,7 @@ int main()
     // Expected payoff discounted to present value
     double call_price = std::exp(-r * T) * (total_payoff / num_simulations);
 
+    std::cout << "Estimated European Call Option Price: $" << call_price << '\n';
+
     return 0;
 }
