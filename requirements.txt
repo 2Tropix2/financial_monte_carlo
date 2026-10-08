@@ -1,0 +1,9 @@
+# Compiler & Toolchain Requirements
+# C++ Compiler supporting C++17 or higher
+# - GCC/G++ >= 8.0 (Linux/MinGW on Windows)
+# - Clang >= 7.0 (macOS/Linux)
+# - MSVC >= 19.14 (Visual Studio 2017 15.7+)
+
+# Build Systems & Tools
+# - Git >= 2.20
+# - VS Code with "C/C++ Extension Pack" (ms-vscode.cpptools)
